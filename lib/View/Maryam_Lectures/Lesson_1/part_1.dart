@@ -2,9 +2,7 @@ import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
-import 'package:quran/Utils/utils.dart';
-import 'package:quran/View/Maryam_Lectures/Lesson_1/part_2.dart';
-import 'package:quran/View/Maryam_Lectures/maryam_contents.dart';
+
 import 'package:percent_indicator/percent_indicator.dart';
 
 class Lesson1Part1 extends StatefulWidget {
@@ -70,7 +68,7 @@ class _Lesson1Part1State extends State<Lesson1Part1> {
           centerTitle: true,
           leading: GestureDetector(
             onTap: () {
-              pushReplacement(context, const MaryamContentScreen());
+              // pushReplacement(context, const MaryamContentScreen());
             },
             child: const Icon(
               Icons.close,
@@ -154,7 +152,7 @@ class _Lesson1Part1State extends State<Lesson1Part1> {
               completeButton == true
                   ? GestureDetector(
                       onTap: () {
-                        pushReplacement(context, Lesson1Part2());
+                        // pushReplacement(context, Lesson1Part2());
                       },
                       child: Container(
                         height: 50,
