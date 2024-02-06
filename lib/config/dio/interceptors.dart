@@ -2,10 +2,10 @@
 
 import 'package:dio/dio.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:quran/Constants/app_logger.dart';
-import 'package:quran/config/app_urls.dart';
-import 'package:quran/config/keys/headers.dart';
-import 'package:quran/config/keys/pref_keys.dart';
+import 'package:quran_home_schooling/Constants/app_logger.dart';
+import 'package:quran_home_schooling/config/app_urls.dart';
+import 'package:quran_home_schooling/config/keys/headers.dart';
+import 'package:quran_home_schooling/config/keys/pref_keys.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 // import 'package:req_fun/req_fun.dart';

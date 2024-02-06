@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quran/Utils/resources/res/app_theme.dart';
+import 'package:quran_home_schooling/Utils/resources/res/app_theme.dart';
 
 class AppText {
   static Widget  appText(String text,
